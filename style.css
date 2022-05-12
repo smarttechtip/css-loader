@@ -1,0 +1,22 @@
+.loader{
+    width: 70px;
+    height: 70px;
+    border: 10px solid rgb(207, 207, 207);
+    border-top: 10px solid red;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    top: 250px;
+    animation-name: loader;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes loader{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform:rotateZ(360deg);
+    }
+}
